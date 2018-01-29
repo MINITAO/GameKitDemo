@@ -1,0 +1,17 @@
+# Native2DLayerScaler
+主要是借助Canvas的适配方式来适配游戏对象，所以至少需要一个Canvas
+
+# Native2DAnchor
+借助mainCamera来适配游戏对象，所以需要一个mainCamera，如果有多个mainCamera可能会有问题
+
+# SpriteLayerInputManager
+通过射线检测来判断Collider2D的touch事件，并不是此节点才面的才触发
+
+#SpriteTouch
+检测一个单一的Sprite的touch，也需要这个Sprite上有Collider2D组件
+
+# Sprite Drager
+ -拖动Sprite，拖动对象上需要添加Collider2D组件,并且设置好'Drag Ray Cast Mask'，此参数表示拖动的Layer Mask
+ -触发类型有点，圆，矩形。
+ -触发对象需要有Collider2D组件，并且触发对象的z最好比拖动对象的z值大，即拖动对象靠近相机一些
+ -设置触发对象的Layer Mask，即'Drop Ray Cast Mask'参数

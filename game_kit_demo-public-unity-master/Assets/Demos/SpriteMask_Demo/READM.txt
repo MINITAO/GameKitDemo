@@ -1,0 +1,13 @@
+## SpriteMask
+
+### MaskType
+
+- None  没有遮罩
+- MaskCanRotate 遮罩层可以旋转，但被遮罩对象不能旋转
+- MaskedCanRotate  被遮罩对象可以旋转，但遮罩层不能旋转
+
+
+## SpriteMask2
+
+- 支持遮罩层和被遮罩同时旋转
+- 但不支持动态batch,draw call会很高

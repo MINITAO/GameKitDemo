@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Warm
+  m_Shader: {fileID: 4800000, guid: 5e8af037e22484a1a89d019cab7687c0, type: 3}
+  m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _CurveTex:
+        m_Texture: {fileID: 2800000, guid: bb52a7d4c0fe546258764702c0098414, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GreyFrame:
+        m_Texture: {fileID: 2800000, guid: 81f15de6fad1448cbbbe5d63f6ad0d7c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LayerTex:
+        m_Texture: {fileID: 2800000, guid: ea2dc995d1ec64899b0b8e4dfe91593f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WarmCurve:
+        m_Texture: {fileID: 2800000, guid: 05a7b6417649646c1bb0756925d445d4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BeautyLevel: 0.6888
+    - _Height: 789
+    - _Width: 550
+    m_Colors: []

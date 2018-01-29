@@ -1,0 +1,3 @@
+[submodule "Assets/GameKit"]
+	path = Assets/GameKit
+	url = git@github.stm.com:3rd-party/game_kit-public-unity.git

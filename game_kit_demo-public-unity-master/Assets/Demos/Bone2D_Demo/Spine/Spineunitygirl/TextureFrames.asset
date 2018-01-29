@@ -1,0 +1,718 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8a5ec9f08093462284b493f7dd6d592, type: 3}
+  m_Name: TextureFrames
+  m_EditorClassIdentifier: 
+  frames:
+  - name: armL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 46
+      width: 163
+      height: 133
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 163
+      height: 133
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: armR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 165
+      y: 46
+      width: 109
+      height: 133
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 109
+      height: 133
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: arrow
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 467
+      y: 1
+      width: 85
+      height: 64
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 85
+      height: 64
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: body
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 180
+      width: 274
+      height: 339
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 274
+      height: 339
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: bootR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 499
+      y: 258
+      width: 91
+      height: 84
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 91
+      height: 84
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: browL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 228
+      y: 23
+      width: 40
+      height: 22
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 40
+      height: 22
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: browR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 287
+      width: 25
+      height: 32
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 25
+      height: 32
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: eyelids closed
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 201
+      width: 183
+      height: 92
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 183
+      height: 92
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: eyelids open
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 499
+      y: 343
+      width: 89
+      height: 176
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 89
+      height: 176
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: hairL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 589
+      y: 459
+      width: 54
+      height: 60
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 54
+      height: 60
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: hairL2
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 553
+      y: 4
+      width: 71
+      height: 76
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 71
+      height: 76
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: hairM
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 467
+      y: 66
+      width: 77
+      height: 96
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 77
+      height: 96
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: hairM blob
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 133
+      y: 15
+      width: 45
+      height: 30
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 45
+      height: 30
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: hairM blobS
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 545
+      y: 142
+      width: 16
+      height: 20
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 20
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: hairR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 1
+      y: 4
+      width: 83
+      height: 41
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 83
+      height: 41
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: hairR2
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 163
+      width: 101
+      height: 94
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 101
+      height: 94
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: hairSide
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 179
+      y: 21
+      width: 48
+      height: 24
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 48
+      height: 24
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: head
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 294
+      width: 222
+      height: 225
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 222
+      height: 225
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: indexL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 405
+      y: 7
+      width: 36
+      height: 24
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 36
+      height: 24
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: indexR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 296
+      y: 3
+      width: 34
+      height: 28
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 34
+      height: 28
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: inmouth
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 589
+      y: 403
+      width: 46
+      height: 55
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 46
+      height: 55
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: irisL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 85
+      y: 11
+      width: 47
+      height: 34
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 47
+      height: 34
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: irisL flatspec
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 625
+      y: 70
+      width: 19
+      height: 10
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 19
+      height: 10
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: irisL spec
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 624
+      y: 384
+      width: 21
+      height: 18
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 21
+      height: 18
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: irisR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 589
+      y: 355
+      width: 34
+      height: 47
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 34
+      height: 47
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: irisR flatspec
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 445
+      y: 178
+      width: 11
+      height: 22
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 11
+      height: 22
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: irisR spec
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 545
+      y: 124
+      width: 16
+      height: 17
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 16
+      height: 17
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: middleL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 331
+      y: 5
+      width: 36
+      height: 26
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 36
+      height: 26
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: middleR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 591
+      y: 320
+      width: 26
+      height: 34
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 26
+      height: 34
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: mouth
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 168
+      width: 83
+      height: 89
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 83
+      height: 89
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: nose
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 545
+      y: 113
+      width: 11
+      height: 10
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 11
+      height: 10
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: pinkyL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 442
+      y: 4
+      width: 24
+      height: 27
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 24
+      height: 27
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: pony1
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 394
+      y: 32
+      width: 72
+      height: 105
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 72
+      height: 105
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: pony2
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 562
+      y: 81
+      width: 83
+      height: 86
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 83
+      height: 86
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: ringL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 269
+      y: 1
+      width: 26
+      height: 30
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 26
+      height: 30
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: rotate
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 275
+      y: 32
+      width: 118
+      height: 105
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 118
+      height: 105
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: strap
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 276
+      y: 138
+      width: 168
+      height: 62
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 168
+      height: 62
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 1
+  - name: thumbL
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 460
+      y: 265
+      width: 37
+      height: 28
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 37
+      height: 28
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  - name: thumbR
+    texture: {fileID: 2800000, guid: 33e128e17951b4a42b17608ff79ba5c5, type: 3}
+    rect:
+      serializedVersion: 2
+      x: 368
+      y: 6
+      width: 36
+      height: 25
+    frameSize:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 36
+      height: 25
+    material: {fileID: 0}
+    uiMaterial: {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}
+    atlasTextureSize: {x: 646, y: 520}
+    isRotated: 0
+  materials:
+  - {fileID: 2100000, guid: 653764aad38c042b58b5bdaa38304fbb, type: 2}

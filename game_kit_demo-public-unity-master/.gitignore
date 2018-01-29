@@ -1,0 +1,9 @@
+Library/
+*.sln
+*.userprefs
+*.csproj
+*.apk
+Temp
+screenshot.png
+_Temp/
+obj/
